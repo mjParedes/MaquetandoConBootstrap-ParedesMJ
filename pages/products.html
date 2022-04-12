@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--exporto fuente tipografica-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+
+    <!--link Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--link de CSS-->
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Bootstrap Layout</title>
+</head>
+
+<body>
+    <nav class="navbar b-nav navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">SmartLife</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./aboutUs.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./galery.html">Galery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+    <header class="container-fluid b-header">
+        <div class="row">
+            <i class="col-12">
+                <img width="200px" height="200px" src="../img/logo3.png" alt="logoheader">
+            </i>
+        </div>
+    
+        <div class="row">
+            <h1 class="col-12">Welcome to Smart Life</h1>
+        </div>
+    </header>
+
+    <main class="container-fluid b-main">
+        <h2>Productos y servicios</h2>
+        <div class="card-group p-3">
+          <div class="card m-1">
+            <img src="../img/carrusel01.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card m-1">
+            <img src="../img/carrusel02.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card m-1">
+            <img src="../img/carrusel03.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card m-1">
+            <img src="../img/carrusel04.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+    </main>
+
+    <section class="container-fluid b-section p-4">
+        <h2>Contenido extra</h2>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">@</span>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2">@example.com</span>
+          </div>
+          
+          <label for="basic-url" class="form-label">Your vanity URL</label>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+          </div>
+          
+          <div class="input-group mb-3">
+            <span class="input-group-text">$</span>
+            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+            <span class="input-group-text">.00</span>
+          </div>
+          
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+          </div>
+          
+          <div class="input-group">
+            <span class="input-group-text">With textarea</span>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+          </div>
+    </section>
+    <section class="container-fluid b-sec2 p-4 text-center">
+        <div class="row">
+            <div class="col-md-7">
+                <h3>
+                    Encontranos y no dudes en visitarnos
+                </h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis delectus et modi deleniti repellendus, sed ducimus ad consequatur est labore eveniet laboriosam quas commodi animi, perspiciatis culpa obcaecati ipsam reprehenderit blanditiis. Magni odio soluta reiciendis ullam dolores eos veritatis consectetur consequatur tempora corporis amet, aperiam ut? Beatae ducimus aperiam aspernatur perferendis voluptatibus eveniet, aut praesentium, cupiditate officiis nesciunt ipsam necessitatibus?
+                </p>
+            </div>
+            <iframe class="col-md-5" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7064.369528649004!2d12.492356283980135!3d41.888523284536674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1649728406466!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </section>
+
+    <footer class="container-fluid b-footer">
+        <p>Powered by Tesla Co-Todos los derechos reservados MJP deveploments-Gracias por su apoyo</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
